@@ -24,3 +24,16 @@ print(string.find(string,"Language"))
 reversedString = string.reverse(string)
 print("Reversed string", reversedString)
 
+-- Formatting Strings
+string1 = "Lua"
+string2 = "Learning"
+
+-- basic string formatting
+print(string.format("Basic Formatting %s %s", string1, string2))
+
+-- Decimal formattin
+print(string.format("%.4f", 1/3))
+
+-- day formatting
+day = 4; month = 1; year = 2332;
+print(string.format("Date Formatting %02d/%02d/%03d", day, month, year))
