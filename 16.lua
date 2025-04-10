@@ -16,3 +16,11 @@ print("lower case : ", string.lower(string))
 newstring = string.gsub(string, "Language", "Learning")
 print("Substituted string : ", newstring)
 
+-- Find and reverse Strings
+-- find the string
+print(string.find(string,"Language"))
+
+-- reverse the string
+reversedString = string.reverse(string)
+print("Reversed string", reversedString)
+
