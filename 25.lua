@@ -20,3 +20,9 @@ print(#{22, 23, nil; n = 6}) --> 2
 -- get the length of array of zero elements where size is 100
 print(#{n = 100}) --> 0
 
+-- get length of array of 3 elements
+print(# {"I", "am", "bored", name="Lua"}) --> 3
+
+-- get length of array of 4 elements 
+print(# {"I", "am", "bored"}) --> 3
+
