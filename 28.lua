@@ -33,6 +33,7 @@ array = {
 -- sorting the array based on custom comparator
 table.sort(array, function(k1, k2) return k1.str < k2.str end)
 
+print("custom Array sorting :")
 -- loop over array and print its values
 for i, v in ipairs(array)
 do
